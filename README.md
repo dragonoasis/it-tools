@@ -113,7 +113,7 @@ Big thanks to all the people who have already contributed!
 
 ## Credits
 
-Coded with ❤️ by [Corentin Thomasset](//corentin-thomasset.fr).
+Coded with ❤️ by Corentin Thomasset and Dragon Oasis.
 
 This project is continuously deployed using [vercel.com](https://vercel.com).
 
