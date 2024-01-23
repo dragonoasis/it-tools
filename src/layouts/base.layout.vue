@@ -39,7 +39,7 @@ const tools = computed<ToolCategory[]>(() => [
         <HeroGradient class="gradient" />
         <div class="text-wrapper">
           <div class="title">
-            IT - TOOLS
+            IT TOOLBOX
           </div>
           <div class="divider" />
           <div class="subtitle">
@@ -61,7 +61,7 @@ const tools = computed<ToolCategory[]>(() => [
 
         <div class="footer">
           <div>
-            IT-Tools
+            Free IT Tools
 
             <c-link target="_blank" rel="noopener" :href="`https://github.com/dragonoasis/it-tools/tree/v${version}`">
               v{{ version }}
@@ -81,7 +81,13 @@ const tools = computed<ToolCategory[]>(() => [
           </div>
           <div>
             © {{ new Date().getFullYear() }}
-            <c-link target="_blank" rel="noopener" href="https://github.com/dragonoasis">
+            <c-link target="_blank" rel="noopener" href="https://www.souus.com/">
+              souus.com
+            </c-link>
+          </div>
+          <div>
+            Supported by 
+            <c-link target="_blank" rel="noopener" href="https://www.dragonoasis.com/">
               Dragon Oasis
             </c-link>
           </div>
