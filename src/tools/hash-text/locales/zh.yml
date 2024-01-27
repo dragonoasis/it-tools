@@ -1,0 +1,8 @@
+tools:
+  hash-text:
+    title: 哈希文本
+    description: 'Hash text: 使用您需要的函数对文本字符串进行哈希处理：MD5、SHA1、SHA256、SHA224、SHA512、SHA384、SHA3 或 RIPEMD160'
+
+    yourtexttohash: '要散列的文本：'
+    digestencoding: 摘要编码类型
+    yourstringtohash: '用于哈希的原始文本...'

@@ -1,0 +1,15 @@
+tools:
+  token-generator:
+    title: 令牌生成器
+    description: 'Token generator: 使用大写或小写字母、数字和/或符号生成最长512个字符的随机字符串。'
+
+    uppercase: 大写字母 (ABC...)
+    lowercase: 小写字母 (abc...)
+    numbers: 数字 (123...)
+    symbols: 符号 (!-;...)
+    length: 长度
+    tokenPlaceholder: 'The token...'
+    copied: 令牌已复制到剪贴板
+    button:
+      copy: 复制
+      refresh: 刷新
