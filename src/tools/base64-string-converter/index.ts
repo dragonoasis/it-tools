@@ -1,10 +1,11 @@
 import { FileDigit } from '@vicons/tabler';
 import { defineTool } from '../tool';
+import { translate } from '@/plugins/i18n.plugin';
 
 export const tool = defineTool({
-  name: 'Base64 string encoder/decoder',
-  path: '/base64-string-converter',
-  description: 'Simply encode and decode string into a their base64 representation.',
+  name: translate('tools.base64-encoder-decoder.title'),
+  path: '/base64-encoder-decoder',
+  description: translate('tools.base64-encoder-decoder.description'),
   keywords: ['base64', 'converter', 'conversion', 'web', 'data', 'format', 'atob', 'btoa'],
   component: () => import('./base64-string-converter.vue'),
   icon: FileDigit,

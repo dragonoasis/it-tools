@@ -6,10 +6,10 @@ tools:
     base64tofile: 从 Base64 到文件
     base64tofileplaceholder: 'base64 文件字符串，格式为 data:...;base64,...'
     filetobase64: 从文件到 base64 字符串
-    filetobase64title: 将文件拖放到此处，或者单击选择文件
+    filetobase64title: 将文件拖放到此处
     filetobase64placeholder: 从文件转换出来的 base64 字符流将会显示在此处
     browsefiles: 浏览并选择本地文件
     or: 或者
     button:
-      download: Download file
-      copy: copy
+      download: 下载文件
+      copy: 复制

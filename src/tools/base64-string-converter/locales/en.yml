@@ -1,0 +1,24 @@
+tools:
+  base64-encoder-decoder:
+    title: 'Base64 string encoder/decoder'
+    description: 'This page provides two functions that allow you to convert a string to its Base64 representation and back. Base64 uses these characters: 26 uppercase letters, 26 lowercase letters, 10 numbers, + and / for new lines.'
+
+    stringtobase64: String to Base64
+    encodeurlsafe: Encode URL safe
+    stringtoencode: String to encode
+    stringtobase64placeholder: 'Put your string here...'
+    base64ofstring: Base64 of string
+    encodedbase64placeholder: The base64 encoding of your string will be here
+
+    base64tostring: Base64 to string
+    decodeurlsafe: 'Decode URL safe'
+    base64todecode: Base64 string to decode
+    base64tostringplaceholder: 'Your base64 string...'
+    decodedstring: Decoded string
+    decodebase64placeholder: The decoded string will be here
+    
+    invalidbase64string: 'Invalid base64 string'
+
+    button:
+      copybase64: Copy base64
+      copystring: Copy decoded string

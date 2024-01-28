@@ -49,7 +49,7 @@ async function onUpload(file: File) {
       v-model:value="base64Input"
       multiline
       :placeholder="t('tools.base64-file-converter.base64tofileplaceholder')"
-      rows="12"
+      rows="8"
       :validation="base64InputValidation"
       mb-2
     />
@@ -66,7 +66,7 @@ async function onUpload(file: File) {
      :browsefiles="t('tools.base64-file-converter.browsefiles')" 
      :or="t('tools.base64-file-converter.or')"
       @file-upload="onUpload" />
-    <c-input-text :value="fileBase64" multiline readonly :placeholder="t('tools.base64-file-converter.filetobase64placeholder')" rows="8" my-2 />
+    <c-input-text :value="fileBase64" multiline readonly :placeholder="t('tools.base64-file-converter.filetobase64placeholder')" rows="6" my-2 />
 
     <div flex justify-center>
       <c-button @click="copyFileBase64()">

@@ -1,0 +1,24 @@
+tools:
+  base64-encoder-decoder:
+    title: 'Base64 字符串编码解码器'
+    description: 'Base64 string encoder/decoder: 此页面提供字符串与其 Base64 表示形式相互转换。 Base64 使用以下字符编码：26 个大写字母、26 个小写字母、10 个数字、+ 和 / 用于换行。'
+
+    stringtobase64: 字符串编码到 Base64
+    encodeurlsafe: 安全编码 URL
+    stringtoencode: 需要编码的字符串
+    stringtobase64placeholder: '在此处输入原始字符串...'
+    base64ofstring: Base64 编码过后的字符串
+    encodedbase64placeholder: 编码之后的字符串显示在这里
+
+    base64tostring: Base64 解码到字符串
+    decodeurlsafe: '安全解码 URL'
+    base64todecode: 需要解码的 Base64 字符串
+    base64tostringplaceholder: '在此处输入base64字符串...'
+    decodedstring: 解码之后的字符串
+    decodebase64placeholder: 解码之后的字符串显示在这里
+    
+    invalidbase64string: '无效的 Base64 字符串'
+
+    button:
+      copybase64: 复制 base64
+      copystring: 复制解码后的字符串
