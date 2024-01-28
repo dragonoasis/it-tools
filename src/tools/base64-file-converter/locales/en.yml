@@ -1,0 +1,15 @@
+tools:
+  base64-file-converter:
+    title: File to Base64 converter
+    description: 'Convert any string, files or images into a base64 representation data URL. Data URLs are useful for creating standalone web pages or embedding small resources without requiring a separate HTTP request.'
+
+    base64tofile: Base64 to file
+    base64tofileplaceholder: 'Put your base64 file string here...'
+    filetobase64: File to base64
+    filetobase64title: Drag and drop a file here, or click to select a file
+    filetobase64placeholder: File in base64 will be here
+    browsefiles: Browse files
+    or: or
+    button:
+      download: Download file
+      copy: copy

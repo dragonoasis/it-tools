@@ -1,0 +1,15 @@
+tools:
+  base64-file-converter:
+    title: 文件和Base64互转器
+    description: 'Base64 file converter：将任何字符串、文件或图像转换为 Base64 格式的数据 URL。 数据 URL 对于创建独立网页或嵌入小型资源非常有用，无需单独的 HTTP 请求。'
+
+    base64tofile: 从 Base64 到文件
+    base64tofileplaceholder: 'base64 文件字符串，格式为 data:...;base64,...'
+    filetobase64: 从文件到 base64 字符串
+    filetobase64title: 将文件拖放到此处，或者单击选择文件
+    filetobase64placeholder: 从文件转换出来的 base64 字符流将会显示在此处
+    browsefiles: 浏览并选择本地文件
+    or: 或者
+    button:
+      download: Download file
+      copy: copy
