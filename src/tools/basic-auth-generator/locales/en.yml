@@ -1,0 +1,14 @@
+tools:
+  basic-auth-generator:
+    title: 'Basic auth generator'
+    description: 'Generate a base64 basic auth header from an username and a password. Please note that Basic Auth may not be secure if used over unencrypted connections. Always use HTTPS when sending sensitive information over the network. If possible, consider using more secure authentication methods, such as OAuth or JWT tokens.'
+
+    username: 'Username:'
+    yourusername: 'Your username...'
+    password: 'Password:'
+    yourpassword: 'Your password...'
+    authorizationheader: 'Authorization header:'
+    copymessage: 'Header copied to the clipboard'
+
+    button:
+      copy: 'Copy header'
