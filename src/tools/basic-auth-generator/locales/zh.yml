@@ -1,7 +1,7 @@
 tools:
   basic-auth-generator:
     title: '基本身份验证生成器'
-    description: '从用户名和密码生成 base64 基本身份验证标头。 请注意，如果通过未加密的连接使用基本身份验证可能不安全。 通过网络发送敏感信息时始终使用 HTTPS。 如果可能，请考虑使用更安全的身份验证方法，例如 OAuth 或 JWT 令牌。'
+    description: 'Basic auth generator: 从用户名和密码生成 base64 基本身份验证标头。 请注意，如果通过未加密的连接使用基本身份验证可能不安全。 通过网络发送敏感信息时始终使用 HTTPS。 如果可能，请考虑使用更安全的身份验证方法，例如 OAuth 或 JWT 令牌。'
 
     username: 用户名：
     yourusername: '您的用户名...'
