@@ -1,5 +1,5 @@
 tools:
-  base64-encoder-decoder:
+  base64-string-converter:
     title: 'Base64 字符串编码解码器'
     description: 'Base64 string encoder/decoder: 此页面提供字符串与其 Base64 表示形式相互转换。 Base64 使用以下字符编码：26 个大写字母、26 个小写字母、10 个数字、+ 和 / 用于换行。'
 

@@ -18,7 +18,7 @@ const textOutput = computed(() =>
 const { copy: copyText } = useCopy({ source: textOutput, text: 'String copied to the clipboard' });
 const b64ValidationRules = [
   {
-    message: t('tools.base64-encoder-decoder.invalidbase64string'),
+    message: t('tools.base64-string-converter.invalidbase64string'),
     validator: (value: string) => isValidBase64(value.trim(), { makeUrlSafe: decodeUrlSafe.value }),
   },
 ];
@@ -26,56 +26,56 @@ const b64ValidationWatch = [decodeUrlSafe];
 </script>
 
 <template>
-  <c-card :title="t('tools.base64-encoder-decoder.stringtobase64')">
-    <n-form-item :label="t('tools.base64-encoder-decoder.encodeurlsafe')" label-placement="left">
+  <c-card :title="t('tools.base64-string-converter.stringtobase64')">
+    <n-form-item :label="t('tools.base64-string-converter.encodeurlsafe')" label-placement="left">
       <n-switch v-model:value="encodeUrlSafe" />
     </n-form-item>
     <c-input-text
       v-model:value="textInput"
       multiline
-      :placeholder="t('tools.base64-encoder-decoder.stringtobase64placeholder')"
+      :placeholder="t('tools.base64-string-converter.stringtobase64placeholder')"
       rows="5"
-      :label="t('tools.base64-encoder-decoder.stringtoencode')"
+      :label="t('tools.base64-string-converter.stringtoencode')"
       raw-text
       mb-5
     />
 
     <c-input-text
-      :label="t('tools.base64-encoder-decoder.base64ofstring')"
+      :label="t('tools.base64-string-converter.base64ofstring')"
       :value="base64Output"
       multiline
       readonly
-      :placeholder="t('tools.base64-encoder-decoder.encodedbase64placeholder')"
+      :placeholder="t('tools.base64-string-converter.encodedbase64placeholder')"
       rows="5"
       mb-5
     />
 
     <div flex justify-center>
       <c-button @click="copyTextBase64()">
-        {{ t('tools.base64-encoder-decoder.button.copybase64') }}
+        {{ t('tools.base64-string-converter.button.copybase64') }}
       </c-button>
     </div>
   </c-card>
 
-  <c-card :title="t('tools.base64-encoder-decoder.base64tostring')">
-    <n-form-item :label="t('tools.base64-encoder-decoder.decodeurlsafe')" label-placement="left">
+  <c-card :title="t('tools.base64-string-converter.base64tostring')">
+    <n-form-item :label="t('tools.base64-string-converter.decodeurlsafe')" label-placement="left">
       <n-switch v-model:value="decodeUrlSafe" />
     </n-form-item>
     <c-input-text
       v-model:value="base64Input"
       multiline
-      :placeholder="t('tools.base64-encoder-decoder.base64tostringplaceholder')"
+      :placeholder="t('tools.base64-string-converter.base64tostringplaceholder')"
       rows="5"
       :validation-rules="b64ValidationRules"
       :validation-watch="b64ValidationWatch"
-      :label="t('tools.base64-encoder-decoder.base64todecode')"
+      :label="t('tools.base64-string-converter.base64todecode')"
       mb-5
     />
 
     <c-input-text
       v-model:value="textOutput"
-      :label="t('tools.base64-encoder-decoder.decodedstring')"
-      :placeholder="t('tools.base64-encoder-decoder.decodebase64placeholder')"
+      :label="t('tools.base64-string-converter.decodedstring')"
+      :placeholder="t('tools.base64-string-converter.decodebase64placeholder')"
       multiline
       rows="5"
       readonly
@@ -84,7 +84,7 @@ const b64ValidationWatch = [decodeUrlSafe];
 
     <div flex justify-center>
       <c-button @click="copyText()">
-        {{ t('tools.base64-encoder-decoder.button.copystring') }}
+        {{ t('tools.base64-string-converter.button.copystring') }}
       </c-button>
     </div>
   </c-card>
