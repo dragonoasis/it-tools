@@ -1,4 +1,4 @@
 /* TEAM */
-Developer: Corentin Thomasset
-Site: https://github.com/CorentinTh
-Twitter: @cthmsst
+Developer: Dragon Oasis
+Site: https://github.com/dragonoasis
+Twitter: @DragonOasiMedia
