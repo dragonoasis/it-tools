@@ -2,9 +2,6 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-## Version 2024.01.04-81ac0da
-- **multiple pages**: update links
-
 ## Version 2023.12.21-5ed3693
 
 ### Features

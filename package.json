@@ -1,6 +1,6 @@
 {
   "name": "it-tools",
-  "version": "2024.01.04-81ac0da",
+  "version": "2023.12.21-5ed3693",
   "description": "Collection of handy online tools for developers, with great UX. ",
   "keywords": [
     "productivity",
@@ -13,11 +13,11 @@
     "developer-tools",
     "developer-productivity"
   ],
-  "author": "Dragon Oasis <dragonoasismediallc@gmail.com> (https://github.com/dragonoasis)",
+  "author": "Corentin Th <corentin.thomasset74+it-tools@gmail.com> (https://github.com/CorentinTh)",
   "license": "GNU GPLv3",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dragonoasis/it-tools"
+    "url": "https://github.com/CorentinTh/it-tools"
   },
   "scripts": {
     "dev": "vite",
