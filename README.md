@@ -6,10 +6,6 @@
 
 Useful tools for developer and people working in IT. [Have a look !](https://tools.souus.com).
 
-## Sponsors
-
-[![Renderize banner](./.github/sponsor-banner.svg)](https://renderize.tech?utm_source=it-tools&utm_medium=readme)
-
 ## Functionalities and roadmap
 
 Please check the [issues](https://github.com/dragonoasis/it-tools/issues) to see if some feature listed to be implemented.
