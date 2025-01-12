@@ -86,7 +86,7 @@ const tools = computed<ToolCategory[]>(() => [
             </c-link>
           </div>
           <div>
-            Supported by 
+            Supported by
             <c-link target="_blank" rel="noopener" href="https://www.dragonoasis.com/">
               Dragon Oasis
             </c-link>
