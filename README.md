@@ -1,6 +1,14 @@
-![logo](.github/logo.png)
+<picture>
+    <source srcset="./.github/logo-dark.png" media="(prefers-color-scheme: light)">
+    <source srcset="./.github/logo-white.png" media="(prefers-color-scheme: dark)">
+    <img src="./.github/logo-dark.png" alt="logo">
+</picture>
 
 Useful tools for developer and people working in IT. [Have a look !](https://tools.souus.com).
+
+## Sponsors
+
+[![Renderize banner](./.github/sponsor-banner.svg)](https://renderize.tech?utm_source=it-tools&utm_medium=readme)
 
 ## Functionalities and roadmap
 
