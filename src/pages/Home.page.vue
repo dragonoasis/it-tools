@@ -43,6 +43,24 @@ function onUpdateFavoriteTools() {
           {{ $t('home.follow.thankYou') }}
           <n-icon :component="IconHeart" />
         </ColoredCard>
+
+        <a href="https://www.souus.com" target="_blank" rel="noopener" class="text-current decoration-none">
+          <c-card v-if="config.showSponsorBanner" class="cursor-pointer !border-2px !hover:border-primary">
+            <div class="flex items-center justify-between">
+              <n-icon :component="IconFileDescription" class="text-neutral-400 dark:text-neutral-600" size="40" />
+              <div class="rounded-full bg-#eeeeee px-10px py-2px text-xs text-black dark:bg-#333333 dark:text-white">
+                Sponsor
+              </div>
+            </div>
+
+            <div class="my-5px flex items-baseline gap-4 text-balance text-lg text-black dark:text-white">
+              souus.com
+            </div>
+            <div class="text-neutral-500 dark:text-neutral-400">
+              free
+            </div>
+          </c-card>
+        </a>
       </div>
 
       <transition name="height">
@@ -75,6 +93,7 @@ function onUpdateFavoriteTools() {
           <ToolCard v-for="tool in toolStore.newTools" :key="tool.name" :tool="tool" />
         </div>
       </div>
+
       <h3 class="mb-5px mt-25px text-neutral-400 font-500">
         {{ $t('home.categories.allTools') }}
       </h3>
